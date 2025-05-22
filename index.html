@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BULL RATE ~ブルか、ブル以外か。~</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <table>
+            <caption>Results</caption>
+            <tbody>
+                <tr>
+                    <th scope="row">ROUND</th>
+                    <td><span id="round">0</span></td>
+                </tr>
+                <tr>
+                    <th scope="row">ONE BULL</th>
+                    <td><span id="onebull">0</span></td>
+                </tr>
+                <tr>
+                    <th scope="row">LOW TON</th>
+                    <td><span id="lowton">0</span></td>
+                </tr>
+                <tr>
+                    <th scope="row">HAT TRICK</th>
+                    <td><span id="hattrick">0</span></td>
+                </tr>
+                <tr>
+                    <th scope="row">TOTAL</th>
+                    <td><span id="total">0</span></td>
+                </tr>
+                <tr>
+                    <th scope="row">BULL RATE</th>
+                    <td id="bullrate-td"><span id="bullrate">0.00</span>%</td>
+                </tr>
+                <tr>
+                    <th scope="row">FLIGHT (Rt.)</th>
+                    <td><span id="flight">-</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="message">Enter the results of three throws!</div>
+        <div id="buttons">
+            <button id="nobull-btn">0</button>
+            <button id="onebull-btn">1</button>
+            <button id="lowton-btn">2</button>
+            <button id="hattrick-btn">3</button>
+        </div>
+    </div>
+    <script src="./main.js">
+    </script>
+</body>
+
+</html>
