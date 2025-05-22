@@ -12,6 +12,7 @@ const nobullBtn = document.getElementById("nobull-btn");
 const onebullBtn = document.getElementById("onebull-btn");
 const lowtonBtn = document.getElementById("lowton-btn");
 const hattrickBtn = document.getElementById("hattrick-btn");
+const resetBtn = document.getElementById("reset-btn");
 
 function getFlight(bullrate) {
     const params = {
@@ -140,3 +141,9 @@ hattrickBtn.onclick = () => {
     const params = getFlight(bullrate);
     flightElem.innerHTML = `${params.fl} (${params.rt})`;
 }
+
+resetBtn.onclick = () => {
+    location.reload();
+    return;
+}
+
